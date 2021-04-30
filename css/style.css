@@ -1,0 +1,164 @@
+#main-container {
+    background-color: #ffffff;
+}
+#logo {
+    display: hidden;
+    width: 50px;
+    height: 50px;
+    }
+
+#top-container {
+    padding: 1rem 0rem 0px 1rem;
+    margin-bottom: 20px;
+}
+
+.top-pic {
+    background: rgb(72, 192, 255);
+    background: linear-gradient(90deg, rgba(72, 192, 255, 1) 3%, rgba(3, 118, 215, 0.2805497198879552) 56%, rgba(0, 65, 255, 0.48503151260504207) 99%);
+}
+
+.profie-img {
+    margin: 30px 0px 1px 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.details {
+    margin: 50px 0px 0px 0px;
+}
+
+.about-title {
+    margin-top: 10px;
+}
+
+#all-details {
+    margin-top: 10px;
+}
+
+.time-period {
+    font-size: small;
+    opacity: 50%;
+    margin-bottom: -1px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 108px;
+    left: 50%;
+    margin-left: 20px;
+    top: 0;
+}
+
+.h1 {
+    border: 10px solid green;
+    border-radius: 5px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.progress {
+    /* margin-top: 8px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.skill-title {
+    font-size: large;
+    margin-left: 11px;
+}
+
+.footer-name {
+    text-align: center;
+}
+
+.text-small {
+    text-align: center;
+}
+
+.rights {
+    padding-left: 51rem;
+}
+
+body {
+    background-color: #F5F7FA!important;
+    font-family: 'Roboto', sans-serif;
+}
+
+;
+.fixed-top {
+    right: 303px !important;
+    left: 304px !important;
+}
+
+textarea {
+    height: 9rem;
+}
+
+.c-text {
+    opacity: 50%;
+}
+
+.connections li{
+    list-style-type:none;
+    display: inline;
+    font-size: 25px;
+    margin-left: 20px;
+    float: right;
+    opacity: 50%;
+    
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+   
+  .wrapper > * {
+    padding: 20px;
+  }
+   
+  .page-main {
+    flex-grow: 1;
+  }
+  .copyright{
+      text-align: center;
+  }
+  @media print {
+    .myDivToPrint {
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 15px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+@media all {
+    .details{
+        margin: 15px 0px 1px 21px;  
+    }
+    #printButton{
+        margin: 0px 0px 10px 72px;  
+    }
+    .col{
+        margin-top: 5px;
+    }
+    #top-container{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+
+    }
+    .contact h2{
+        margin-bottom: 20px;
+    }
+  }
+  .personal{
+      font-weight: bold;
+  }
+  
